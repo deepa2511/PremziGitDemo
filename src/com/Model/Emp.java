@@ -4,7 +4,7 @@ public class Emp {
 private int eid;
 	private int salary;
 private String ename;
-
+private int experience;
 public int getEid() {
 	return eid;
 }
