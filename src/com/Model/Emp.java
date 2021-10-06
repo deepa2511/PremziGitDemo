@@ -2,6 +2,7 @@ package com.Model;
 
 public class Emp {
 private int eid;
+	private int salary;
 private String ename;
 public int getEid() {
 	return eid;
