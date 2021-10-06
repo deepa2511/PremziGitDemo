@@ -4,6 +4,7 @@ public class Emp {
 private int eid;
 	private int salary;
 private String ename;
+
 public int getEid() {
 	return eid;
 }
@@ -26,7 +27,11 @@ public void input(int id,String nm)
 	this.eid=id;
 	this.ename=nm;
 }
+
+void display()
+{
 	
+}
 }
 
 
