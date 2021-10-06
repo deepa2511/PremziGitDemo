@@ -20,5 +20,10 @@ public Emp(int eid, String ename) {
 	this.eid = eid;
 	this.ename = ename;
 }
-
+public void input(int id,String nm)
+{
+	this.eid=id;
+	this.ename=nm;
+}
+	
 }
