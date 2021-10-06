@@ -2,6 +2,7 @@ package com.Model;
 
 public class Emp {
 private int eid;
+	private int salary;
 private String ename;
 public int getEid() {
 	return eid;
@@ -20,7 +21,12 @@ public Emp(int eid, String ename) {
 	this.eid = eid;
 	this.ename = ename;
 }
-
+public void input(int id,String nm)
+{
+	this.eid=id;
+	this.ename=nm;
+}
+	
 }
 
 
